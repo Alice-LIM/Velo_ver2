@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg"
     android:orientation="vertical"
-    tools:context="seoul.iot.biketrainner.ReqConnectActivity">
+    tools:context="Velo.iot.Velo.ReqConnectActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/rc_toolbar"

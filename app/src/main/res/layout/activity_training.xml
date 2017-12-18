@@ -22,7 +22,7 @@
         android:orientation="vertical"
         android:background="@drawable/bg"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="seoul.iot.biketrainner.TrainingActivity">
+        tools:context="Velo.iot.Velo.TrainingActivity">
 
         <Button
             android:id="@+id/t_menu"
