@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="seoul.iot.biketrainner">
+    package="Velo">
 
     <uses-feature
         android:name="android.hardware.usb.host"
@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
-        android:name=".StartApplication"
+        android:name="Velo.StartApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -23,7 +23,7 @@
         
 
         <activity
-            android:name=".SignInActivity"
+            android:name="Velo.SignInActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,24 +32,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name="Velo.SignUpActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <service
-            android:name=".UsbService"
+            android:name="Velo.UsbService"
             android:enabled="true" />
 
         <activity
-            android:name=".ReqConnectActivity"
+            android:name="Velo.ReqConnectActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <activity
-            android:name=".TrainingActivity"
+            android:name="Velo.TrainingActivity"
             android:label="@string/title_activity_training"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             ></activity>
         <activity
-            android:name=".MapActivity"
+            android:name="Velo.MapActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 

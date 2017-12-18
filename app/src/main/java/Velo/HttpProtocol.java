@@ -1,4 +1,4 @@
-package seoul.iot.biketrainner;
+package Velo;
 
 import android.util.Log;
 

@@ -1,4 +1,4 @@
-package seoul.iot.biketrainner;
+package Velo;
 
 import android.content.Context;
 import android.os.Bundle;
